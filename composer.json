@@ -1,0 +1,36 @@
+{  
+  "name": "inows/payment",  
+  "description": "Alipay Wechatpay for Yii2",  
+  "keywords": [  
+    "yii2",  
+    "alipay",
+    "wechat",
+    "wechat pay"
+  ],  
+  "homepage": "https://github.com/inows/payment",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/inows/payment"  
+  },  
+  "authors": [  
+    {  
+      "name": "inows",  
+      "email": "inows@foxmail.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "inows\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
